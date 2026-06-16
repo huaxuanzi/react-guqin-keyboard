@@ -1,0 +1,20 @@
+{
+  "name": "react-guqin-keyboard",
+  "version": "1.0.0",
+  "description": "A highly precise interactive Guqin notation (Jianzipu) keyboard plugin for React.",
+  "main": "./dist/guqin-keyboard.umd.js",
+  "module": "./dist/guqin-keyboard.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "assets"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
